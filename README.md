@@ -10,7 +10,7 @@ Adjust Process Privileges In Windows
 
 权限不是一个物主，是宿主。  
 权限属于：  
-1.CPU设定的权限，如：ring0，ring3等。  
+1.CPU设定的权限，如：ring0，ring3等，限定指令的执行。  
 2.操作系统的权限，归属于用户（以及各种对象），应用于进程。  
 3.数据库等第三方应用的权限。这里不谈。  
 
