@@ -56,7 +56,7 @@ https://learn.microsoft.com/en-us/windows/win32/secauthz/security-descriptor-def
 
 最后本程序无视UAC。  
 
-经测试：Users组下的用户可以获取nt authority\system的权限。  
+经测试：Users组下的用户的进程可以获取nt authority\system的权限。  
 
 测试方法：  
 1.登录到设定的低权限的用户去运行程序。  
